@@ -1,5 +1,5 @@
-git config --global user.name 'Ander Fernández'
-git config --global user.email 'anderfernandezj@gmail.com'
+git config --global user.name 'Javier Moral'
+git config --global user.email 'fmoralvi@gmail.com'
 git add .
 set +e 
 git status | grep modified
