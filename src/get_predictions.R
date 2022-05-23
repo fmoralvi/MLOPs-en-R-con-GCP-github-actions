@@ -1,5 +1,5 @@
 # Load libraries
-libs = c('yaml', 'httr', 'jsonlite')
+libs = c('yaml', 'httr', 'jsonlite', 'dplyr')
 sapply(libs[!libs %in% installed.packages()], install.packages)
 sapply(libs, require, character.only = T)
 
